@@ -55,12 +55,16 @@ export default {
   },
   methods: {
       onClick () {
-        this.loading = true
-        console.log(this.UserText);
-        setTimeout(() => {
-          this.loading = false
-          this.loaded = true
-        }, 2000)
+        if (this.UserText != "" && this.UserText != null) {
+          
+          this.loading = true
+          console.log(this.UserText);
+          setTimeout(() => {
+            this.loading = false
+            this.loaded = true
+          }, 2000)
+
+        }
       },
     },
 }
