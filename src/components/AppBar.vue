@@ -5,7 +5,7 @@
   scroll-behavior="inverted fade-image"
   >
     <v-app-bar-nav-icon></v-app-bar-nav-icon>
-    <v-app-bar-title>Reto AI</v-app-bar-title>
+    <v-app-bar-title>Librería</v-app-bar-title>
     <!-- Button to navigate to home route / -->
     <v-btn icon="mdi-home" to="/"></v-btn>
     <!-- Button to add a menu options -->
